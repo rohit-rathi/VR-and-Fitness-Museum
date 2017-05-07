@@ -6,3 +6,5 @@ I have created a museum where the user gets to see how VR can be used to make ex
 A walk through of this video is shown here: https://youtu.be/ngTPWnuyQjA.
 
 To build this on your phone, you need to go to open Museum of Sports/Assets/Scene.unity.
+
+I used Google SDK 1.0.3. and unity 5.5.1f
