@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		/*if (determinePositionOfCamera.GetCount () == 0) {
+		if (determinePositionOfCamera.GetCount () == 0) {
 			EnableComponents.MakeItemAppear (StartTourCanvas);
 			player.transform.position = StartPosition.transform.position;
 			determinePositionOfCamera.IncrementCount ();
@@ -55,10 +55,7 @@ public class Movement : MonoBehaviour {
 			EnableComponents.MakeItemAppear (EndTourCanvas);
 			player.transform.position = PositionFiveCanvas.transform.position;
 		}		
-		DontDestroyOnLoad(determinePositionOfCamera);*/
-		player.transform.position = PositionFourCanvas.transform.position;
-		EnableComponents.MakeItemAppear (HoloFitButtons);
-
+		DontDestroyOnLoad(determinePositionOfCamera);
 	}
 
 	public void MoveToFirstCanvas() {
